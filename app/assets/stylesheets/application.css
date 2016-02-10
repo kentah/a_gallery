@@ -13,3 +13,42 @@
  *= require_tree .
  *= require_self
  */
+@import 'bootstrap';
+
+.cont {
+  width: 100%;
+  height: 25%;
+  text-align: left;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+#sub-cont {
+  padding-top: 8em;
+
+  position: relative;
+  float: left;
+  
+}
+
+.a-head {
+
+  font-size: 5em;
+  letter-spacing: .04em;
+  position: relative;
+  padding-top: 1px;
+  float: left;
+}
+
+.h-link {
+
+
+  font-size: 3em;
+  text-decoration: none;
+  color: #000;
+}
+
