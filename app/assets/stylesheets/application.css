@@ -27,28 +27,43 @@
   margin: auto;
 }
 
+
+.container {
+  padding: 3em;
+}
 #sub-cont {
   padding-top: 8em;
 
-  position: relative;
-  float: left;
-  
+
 }
 
 .a-head {
-
-  font-size: 5em;
+  font-size: 4em;
   letter-spacing: .04em;
   position: relative;
   padding-top: 1px;
-  float: left;
+  float: right;
+  text-align: right;
 }
 
 .h-link {
-
-
   font-size: 3em;
+  padding-right: 10px;
   text-decoration: none;
   color: #000;
+ 
 }
 
+p {
+  text-align: right;
+}
+
+.jumbotron {
+  
+  position: relative;
+  background-image: url('https://c2.staticflickr.com/6/5014/5405202945_e185eccffb_b.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
+  width: 100%;
+}
