@@ -62,7 +62,7 @@ p {
 .jumbotron {
   
   position: relative;
-  background-image: url('https://c2.staticflickr.com/6/5014/5405202945_e185eccffb_b.jpg');
+  background-image: url('background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   height: 450px;
