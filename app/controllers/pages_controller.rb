@@ -1,11 +1,11 @@
 class PagesController < ApplicationController
 
   def home
-    if current_user.try(:admin?)
+    #if current_user.try(:admin?)
       #redirect_to destroy_user_session_path
-    else
-      redirct_to root_path
-    end
+    #else
+      #redirect_to root_path
+   # end
   end
 
   def shop
