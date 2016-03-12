@@ -60,9 +60,8 @@ p {
 }
 
 .jumbotron {
-  
   position: relative;
-  background-image: url('background.jpg');
+  background-image: asset-url('background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   height: 450px;
