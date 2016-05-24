@@ -1,0 +1,69 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ *= require devise_bootstrap_views
+ */
+@import 'bootstrap';
+
+.cont {
+  width: 100%;
+  height: 25%;
+  text-align: left;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+
+.container {
+  padding: 3em;
+}
+#sub-cont {
+  padding-top: 8em;
+
+
+}
+
+.a-head {
+  font-size: 4em;
+  letter-spacing: .04em;
+  position: relative;
+  padding-top: 1px;
+  float: right;
+  text-align: right;
+}
+
+.h-link {
+  font-size: 3em;
+  padding-right: 10px;
+  text-decoration: none;
+  color: #000;
+ 
+}
+
+p {
+  text-align: right;
+}
+
+.jumbotron {
+  position: relative;
+  background-image: asset-url('background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
+  width: 100%;
+}
